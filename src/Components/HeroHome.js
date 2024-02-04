@@ -13,10 +13,12 @@ const HeroHome = () => {
         <div className="content">
             <p>HI, I'M SATYAM KUMAR</p>
             <h1>Frontend Developer.</h1>
-            {/* <Link to="/projects" className="btn">Download CV</Link> */}
-            <Link to={CV} download="Satyam_CV" target="_blank" rel="noreferrer" className="btn">Download CV</Link>
-            {/* <a href={CV} download className="btn">Download CV</a> */}
-            <Link to="/contact" className="btn btn-light">Let's Talk</Link>
+            <div className="home-btns">
+              {/* <Link to="/projects" className="btn">Download CV</Link> */}
+              <Link to={CV} download="Satyam_CV" target="_blank" rel="noreferrer" className="btn">Download CV</Link>
+              {/* <a href={CV} download className="btn">Download CV</a> */}
+              <Link to="/contact" className="btn btn-light">Let's Talk</Link>
+            </div>
         </div>
         
     </div>

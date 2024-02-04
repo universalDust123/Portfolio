@@ -48,7 +48,15 @@
 }
 
 .content .btn{
-    margin: 1rem 0.2rem;
+    margin: 1rem 0.5rem;
+    font-size: 0.7rem;
+    width: 50%;
+}
+
+.content .home-btns{
+    display: flex;
+    flex-direction: row;
+
 }
 
 @media screen and (max-width: 640px) {
@@ -58,5 +66,15 @@
     
     .hero .content p{
         font-size: 1.4rem;
+    }
+    .content .home-btns{
+        display: flex;
+        flex-direction: column;
+        /* width: 200%; */
+        
+    }
+    .content .btn{
+        /* margin: auto; */
+        width: 85%;
     }
 }
