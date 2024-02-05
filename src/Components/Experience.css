@@ -40,6 +40,8 @@
     margin-right: 0.3rem;
 }
 
+
+
 @media screen and (max-width:640px) {
     .skills-container{
         grid-template-columns: repeat(1,1fr);
